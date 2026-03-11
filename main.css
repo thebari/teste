@@ -1,6 +1,14 @@
 *{
   color: #EEF0F2;
 }
+.rodape{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(40, 0, 86, 0.392);
+  padding: 5px;
+  border-radius: 30%;
+}
 
 body{
   background-image: linear-gradient(100deg, #aa8fd8, #3C4F76);
@@ -37,10 +45,9 @@ main{
 }
 
 #left, #right{
-  width: 45%;
+  width: 40%; /* narrower to allow for larger gap */
   background-color: rgba(40, 0, 86, 0.392);
   padding: 20px;
-  margin: 5px;
   border-radius: 30px;
 }
 
