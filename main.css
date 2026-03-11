@@ -1,18 +1,6 @@
 *{
   color: #EEF0F2;
 }
-.rodape{
-  text-align: center;
-  justify-content: center;
-}
-
-.rodape p {
-  display: inline-block;               
-  padding: 8px 16px;                   
-  border-radius: 12px;
-  font-size: 12px;
-  background-color: rgba(40, 0, 86, 0.392);
-}
 
 body{
   background-image: linear-gradient(100deg, #aa8fd8, #3C4F76);
@@ -54,5 +42,15 @@ main{
   padding: 20px;
   border-radius: 30px;
 }
+.rodape{
+  text-align: center;
+  justify-content: center;
+}
 
-
+.rodape p {
+  display: inline-block;               
+  padding: 8px 16px;                   
+  border-radius: 12px;
+  font-size: 12px;
+  background-color: rgba(40, 0, 86, 0.392);
+}
